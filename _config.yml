@@ -7,7 +7,7 @@ markdown: rdiscount
 permalink: /:title
 
 name: “r1nging's Blog”
-title: 's blog
+title: r1nging's blog
 description: Everything about r1nging.
 url: http://r1nging.github.io
 feed: /atom.xml
