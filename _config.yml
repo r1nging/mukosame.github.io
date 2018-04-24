@@ -6,9 +6,9 @@ markdown: rdiscount
 #paginate: 8
 permalink: /:title
 
-name: “Mukosame's Blog”
-title: Mukosame's blog
-description: Everything about Mukosame.
-url: http://mukosame.github.io
+name: “r1nging's Blog”
+title: 's blog
+description: Everything about r1nging.
+url: http://r1nging.github.io
 feed: /atom.xml
-author_info: <a href="http://mukosame.github.io/">Mukosame</a>
+author_info: <a href="http://r1nging.github.io/">r1nging</a>
