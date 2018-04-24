@@ -13,16 +13,16 @@ layout: home
         <div class="cate-bar"><span id="cateBar"></span></div>
 <br>
 96年脑抽,网络攻城狮,关注信息安全。 :earth_asia: :earth_africa: :earth_americas:
-
-<br><h1>联系我</h1>
+<p></p>
+<br><h2>联系我</h2>
 
 <br>- Emal: i@secsrc.org
 
 <br>- Douban:<a href="https://www.douban.com/people/r1nging/">r1nging</a>
 
 <br>- CSDN:<a href="http://blog.csdn.net/only_ring">r1nging</a>
-
-<br><h1>朋友们</h1>
+<p></p>
+<br><h2>朋友们</h2>
 <br>
 <strong><a title="一头公牛" href="http://oxblog.cn" target="_blank" rel="noopener">
 <img class="alignleft" src="https://s1.ax1x.com/2018/04/14/CVThxf.jpg" width="50" height="50" /></a>
@@ -39,7 +39,7 @@ layout: home
 <strong><a title="渗透测试 代码审计 内网渗透 武器库" href="https://drops.org.cn" target="_blank" rel="noopener">
 <img class="alignleft" src="https://drops.org.cn/usr/themes/drop.jpg" width="50" height="50" /></a>
 <a href="https://drops.org.cn" target="_blank" rel="noopener">Drop</a></strong>
-<p></p>-------
+<p></p>
 <strong><a title="喜欢做梦" href="https://www.zomw.cn/" target="_blank" rel="noopener">
 <img class="alignleft" src="https://s1.ax1x.com/2018/04/21/CMJC60.png" width="50" height="50" /></a>
 <a href="https://www.zomw.cn/" target="_blank" rel="noopener">做梦王</a></strong>
