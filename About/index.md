@@ -11,6 +11,4 @@ layout: home
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
-
-11111
 </div>
