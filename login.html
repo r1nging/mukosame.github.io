@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="initial-scale=1">
+	<meta name="viewport" content="user-scalable=no">
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>login</title>
+	<style type="text/css"> 
+		body{
+			background:url("https://s1.ax1x.com/2018/04/26/C1BJW6.jpg");
+		}
+		.row-margin-top {
+    			margin-top: 20px;
+		}
+		.form{border: 1px solid rgba(255,255,255,0.2);  }
+		
+
+	</style> 
+</head>
+<body>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-5">
+		<form  action='/login/' method="post">
+	    	<div class="col-xs-5 form row-margin-top">
+				<p> {{ error }}</p>
+				<div class="input-group row-margin-top">
+					<span class="input-group-addon"><i class="fa fa-user fa-lg"> </i></span> 
+					<input type="text" name="username" value="" placeholder="Username" class="form-control">
+				</div>
+		    	<div class="input-group row-margin-top">
+		    		<span class="input-group-addon"><i class="fa fa-lock fa-lg"> </i></span>
+		    		<input type="password" name="password" value="" placeholder="Password" class="form-control">
+		    	</div>
+				<div class="col-md-offset-4 row-margin-top">
+					<input type="submit" value="登录" class="btn btn-primary btn-lg">
+				</div>
+			<p>
+			<p>
+	    	</div>
+		</form>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
