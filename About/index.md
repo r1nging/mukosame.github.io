@@ -17,14 +17,14 @@ layout: home
 <p></p>
 <br><h2>联系我</h2>
 
-* - Emal: i@secsrc.org
+<ul>
+  <li>Emal: i@secsrc.org</li>
+  <li>Douban:<a href="https://www.douban.com/people/r1nging/">r1nging</a></li>
+  <li>CSDN:<a href="http://blog.csdn.net/only_ring">r1nging</a></li>
+</ul>
 
-* - Douban:<a href="https://www.douban.com/people/r1nging/">r1nging</a>
 
-* - CSDN:<a href="http://blog.csdn.net/only_ring">r1nging</a>
-
-
-## 朋友们
+<h2>朋友们</h2>
 <br>
 <strong><a title="一头公牛" href="http://oxblog.cn" target="_blank" rel="noopener">
 <img class="alignleft" src="https://s1.ax1x.com/2018/04/14/CVThxf.jpg" width="50" height="50" /></a>
