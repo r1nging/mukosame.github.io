@@ -13,7 +13,7 @@ layout: home
         <div class="cate-bar"><span id="cateBar"></span></div>
 <p></p>
 <br><h2>关于我</h2>
-96年脑抽,网络攻城狮,关注信息安全。 :earth_asia: :earth_africa: :earth_americas:
+96年脑抽,网络攻城狮,关注信息安全。
 <p></p>
 <br><h2>联系我</h2>
 
