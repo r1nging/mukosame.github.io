@@ -31,20 +31,20 @@ pip install shadowsocks
 
 config.json
 
-```{
-“server”:”server IP”,
-“local_address”: “127.0.0.1”,
-“local_port”:1080,
-“port_password”: {
-“8381”: “foobar1q”,
-“8382”: “foobar2w”,
-“8383”: “foobar3e”,
-“8384”: “foobar4r”
-},
-“timeout”:300,
-“method”:”rc4-md5″,
-“fast_open”: false
-}```
+```
+{   "server":"0.0.0.0", 
+	"local_address": "127.0.0.1",
+	"local_port":1080,
+	"port_password":
+	   { "8381": "foobar1q", 
+	     "8382": "foobar2w", 
+	    "8383": "foobar3e",
+	    "8384": "foobar4r" },
+	"timeout":300, 
+	"method":"rc4-md5",
+	"fast_open": false 
+}
+```
 
 网上说用rc4-md5会更快一点。
 
@@ -70,6 +70,7 @@ ssserver -d start
 
 于是
 
+```
 [root@195776 ~]# iptables -L
 Chain INPUT (policy ACCEPT)
 target prot opt source destination
@@ -84,6 +85,10 @@ target prot opt source destination
 REJECT all — anywhere anywhere reject-with icmp-host-prohibited
 
 Chain OUTPUT (policy ACCEPT)
+
 target prot opt source destination
+
+```
+
 
 清楚所有iptables规则iptables -F 之后正常连接。
