@@ -11,7 +11,7 @@ layout: home
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
-<div style="margin-left: 100px;">
+<div style="margin-left: 50px;">
     <p></p>
 <br><h2>关于我</h2>
 96年脑抽,网络攻城狮,关注信息安全。
