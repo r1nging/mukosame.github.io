@@ -11,7 +11,8 @@ layout: home
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
-<p></p>
+<div style="margin-left: 100px;">
+    <p></p>
 <br><h2>关于我</h2>
 96年脑抽,网络攻城狮,关注信息安全。
 <p></p>
@@ -57,6 +58,7 @@ layout: home
 <img class="alignleft" src="https://gravatar.yecdn.com/avatar/ccf090591cf549646cae4f16ee27a403" width="50" height="50" /></a>
 <a href="https://niconiconi.org" target="_blank" rel="noopener">Volio</a></strong>
 
+</div>
 
 
     </div>
