@@ -40,12 +40,15 @@ yum -y install mysql mysql-server  <br>
 /etc/init.d/mysqld start
 
 2.1 设置mysql密码
-<br> `mysql>; USE mysql;
-<br>mysql>; UPDATE user SET Password=PASSWORD(‘newpassword’) WHERE user=’root’;
-<br>mysql>; FLUSH PRIVILEGES;`
+```
+mysql>; USE mysql;
+mysql>; UPDATE user SET Password=PASSWORD(‘newpassword’) WHERE user=’root’;
+mysql>; FLUSH PRIVILEGES;
+```
 
 3.安装php5
-yum install php  <br>
+
+yum install php
 安装完php5后必须要重新启动Apache以使php生效:   <br>
 /etc/init.d/httpd restart
 
