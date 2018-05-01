@@ -7,7 +7,9 @@ category: blog
 
 CentOS 7.0中，已经使用MariaDB替代了MySQL数据库
 
-`rpm -qa | grep MariaDB`
+`
+rpm -qa | grep MariaDB
+`
 
 看看本机又没安装MariaDB,没有的话安装
 
@@ -25,7 +27,8 @@ mysqladmin -u root -p create wordpress #创建Wordpress数据库
 
 2.安装PHP
 
-```yum install php
+```
+yum install php
 yum install php-mysql php-gd libjpeg* php-ldap php-odbc php-pear php-xml php-xmlrpc php-mbstring php-bcmath php-mhash #安装php组件
 systemctl restart mariadb.service #重启MariaDB
 systemctl restart httpd.service #重启apache
